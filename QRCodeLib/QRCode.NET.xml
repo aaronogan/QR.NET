@@ -1,0 +1,247 @@
+﻿<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "QRCode.NET.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "QRCodeNET"
+        />
+        <Setting
+            Name = "StartTime"
+            Value = "Thursday, May 17, 2007 22:35:07"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Source\QRCode.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec"
+        />
+    </Settings>
+    <Root>
+        <Directory Name = "data" >
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\data\QRCodeImage.java"
+                NewPath = "C:\Source\QRCode.NET\QRCodeImage.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\data\QRCodeSymbol.java"
+                NewPath = "C:\Source\QRCode.NET\QRCodeSymbol.cs"
+            />
+        </Directory>
+        <Directory Name = "ecc" >
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\ecc\BCH15_5.java"
+                NewPath = "C:\Source\QRCode.NET\BCH15_5.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\ecc\ReedSolomon.java"
+                NewPath = "C:\Source\QRCode.NET\ReedSolomon.cs"
+            />
+        </Directory>
+        <Directory Name = "exception" >
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\AlignmentPatternNotFoundException.java"
+                NewPath = "C:\Source\QRCode.NET\AlignmentPatternNotFoundException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\DecodingFailedException.java"
+                NewPath = "C:\Source\QRCode.NET\DecodingFailedException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\FinderPatternNotFoundException.java"
+                NewPath = "C:\Source\QRCode.NET\FinderPatternNotFoundException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\InvalidDataBlockException.java"
+                NewPath = "C:\Source\QRCode.NET\InvalidDataBlockException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\InvalidVersionException.java"
+                NewPath = "C:\Source\QRCode.NET\InvalidVersionException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\InvalidVersionInfoException.java"
+                NewPath = "C:\Source\QRCode.NET\InvalidVersionInfoException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\SymbolNotFoundException.java"
+                NewPath = "C:\Source\QRCode.NET\SymbolNotFoundException.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\exception\VersionInformationException.java"
+                NewPath = "C:\Source\QRCode.NET\VersionInformationException.cs"
+            />
+        </Directory>
+        <Directory Name = "geom" >
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\geom\Axis.java"
+                NewPath = "C:\Source\QRCode.NET\Axis.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\geom\Line.java"
+                NewPath = "C:\Source\QRCode.NET\Line.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\geom\Point.java"
+                NewPath = "C:\Source\QRCode.NET\Point.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\geom\SamplingGrid.java"
+                NewPath = "C:\Source\QRCode.NET\SamplingGrid.cs"
+            />
+        </Directory>
+        <File
+            OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\QRCodeDecoder.java"
+            NewPath = "C:\Source\QRCode.NET\QRCodeDecoder.cs"
+        >
+            <Class Name = "jp.sourceforge.qrcode.codec.QRCodeDecoder.DecodeResult" >
+                <Section Name = "decode(jp.sourceforge.qrcode.codec.data.QRCodeImage)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+                <Section Name = "decode(jp.sourceforge.qrcode.codec.data.QRCodeImage,jp.sourceforge.qrcode.codec.geom.Point)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+                <Section Name = "getDecodedString(int[],int,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\QRCodeEncoder.java"
+            NewPath = "C:\Source\QRCode.NET\QRCodeEncoder.cs"
+        />
+        <Directory Name = "reader" >
+            <Directory Name = "pattern" >
+                <File
+                    OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\reader\pattern\AlignmentPattern.java"
+                    NewPath = "C:\Source\QRCode.NET\AlignmentPattern.cs"
+                />
+                <File
+                    OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\reader\pattern\FinderPattern.java"
+                    NewPath = "C:\Source\QRCode.NET\FinderPattern.cs"
+                />
+                <File
+                    OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\reader\pattern\LogicalSeed.java"
+                    NewPath = "C:\Source\QRCode.NET\LogicalSeed.cs"
+                />
+            </Directory>
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\reader\QRCodeDataBlockReader.java"
+                NewPath = "C:\Source\QRCode.NET\QRCodeDataBlockReader.cs"
+            >
+                <Class Name = "jp.sourceforge.qrcode.codec.reader.QRCodeDataBlockReader" >
+                    <Section Name = "getDataByte()" >
+                        <Issue
+                            Type = "ToDo"
+                            Number = "1043"
+                            Severity = "2"
+                        >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                    </Section>
+                </Class>
+            </File>
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\reader\QRCodeImageReader.java"
+                NewPath = "C:\Source\QRCode.NET\QRCodeImageReader.cs"
+            >
+                <Class Name = "jp.sourceforge.qrcode.codec.reader.QRCodeImageReader.ModulePitch" >
+                    <Section Name = "getQRCodeSymbol(int[][])" >
+                        <Issue
+                            Type = "ToDo"
+                            Number = "1043"
+                            Severity = "2"
+                        >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                        <Issue
+                            Type = "ToDo"
+                            Number = "1043"
+                            Severity = "2"
+                        >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                        <Issue
+                            Type = "ToDo"
+                            Number = "1043"
+                            Severity = "2"
+                        >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                        <Issue
+                            Type = "ToDo"
+                            Number = "1043"
+                            Severity = "2"
+                        >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                    </Section>
+                </Class>
+            </File>
+        </Directory>
+        <Directory Name = "util" >
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\util\Color.java"
+                NewPath = "C:\Source\QRCode.NET\Color.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\util\ContentConverter.java"
+                NewPath = "C:\Source\QRCode.NET\ContentConverter.cs"
+            >
+                <Class Name = "jp.sourceforge.qrcode.codec.util.ContentConverter" >
+                    <Section Name = "replaceString(java.lang.String,java.lang.String,java.lang.String)" >
+                        <Issue
+                            Type = "Runtime"
+                            Number = "1101"
+                            Severity = "2"
+                        >Method 'java.lang.String.indexOf' was converted to 'System.String.IndexOf' which may throw an exception.</Issue>
+                        <Issue
+                            Type = "Runtime"
+                            Number = "1101"
+                            Severity = "2"
+                        >Method 'java.lang.String.indexOf' was converted to 'System.String.IndexOf' which may throw an exception.</Issue>
+                    </Section>
+                </Class>
+            </File>
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\util\DebugCanvas.java"
+                NewPath = "C:\Source\QRCode.NET\DebugCanvas.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\util\DebugCanvasAdapter.java"
+                NewPath = "C:\Source\QRCode.NET\DebugCanvasAdapter.cs"
+            />
+            <File
+                OldPath = "C:\Source\qrcode\qrcode\qrcode\src\jp\sourceforge\qrcode\codec\util\QRCodeUtility.java"
+                NewPath = "C:\Source\QRCode.NET\QRCodeUtility.cs"
+            />
+        </Directory>
+        <Issue
+            Type = "Global Warning"
+            Number = "1274"
+            Severity = "2"
+        >Interaction between members of a class may differ because their execution sequence is different. </Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1225"
+            Severity = "2"
+        >Type castings between primitive types may have different behavior.</Issue>
+    </Root>
+</ConversionLog>
+

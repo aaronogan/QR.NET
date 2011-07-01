@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeLib", "QRCodeLib.csproj", "{E98126B2-AF17-4783-96B9-856D6744DCA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeSampleApp", "..\QRCodeSampleApp\QRCodeSampleApp.csproj", "{41E1CFDE-BFA0-4274-9267-B129B46BC312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeMobileLib", "..\QRCodeMobileLib\QRCodeMobileLib.csproj", "{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeWindowsMobile5", "..\QRCodeWindowsMobile5.0\QRCodeWindowsMobile5.csproj", "{B9081AC1-39EF-470E-A711-8F9E3354F31B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|.NET.ActiveCfg = Release|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|.NET.ActiveCfg = Release|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8E32DEBB-DAB5-495D-9924-6D7B473DD8E2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B9081AC1-39EF-470E-A711-8F9E3354F31B}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

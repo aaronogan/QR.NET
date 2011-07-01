@@ -1,0 +1,597 @@
+﻿<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "example.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "example"
+        />
+        <Setting
+            Name = "StartTime"
+            Value = "Friday, May 18, 2007 23:13:03"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Source\QRCodeSample\sample"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Source\qrcode\qrcode\qrcode\example"
+        />
+    </Settings>
+    <Root>
+        <File
+            OldPath = "C:\Source\qrcode\qrcode\qrcode\example\QRCodeDecoderCUIExample.java"
+            NewPath = "C:\Source\QRCodeSample\sample\QRCodeDecoderCUIExample.cs"
+        >
+            <Class Name = "QRCodeDecoderCUIExample" >
+                <Section Name = "main(java.lang.String[])" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "J2SEImage" >
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.QRCodeDecoder' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.exception.InvalidVersionInfoException' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.imageio.ImageIO' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Source\qrcode\qrcode\qrcode\example\QRCodeDecoderGUIExample.java"
+            NewPath = "C:\Source\QRCodeSample\sample\QRCodeDecoderGUIExample.cs"
+        >
+            <Class Name = "QRCodeDecoderGUIExample.J2SEImage" >
+                <Section Name = "QRCodeDecoderGUIExample()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJTextFieldJTextField_int"
+                        Severity = "2"
+                    >Constructor 'javax.swing.JTextField.JTextField' was converted to 'System.Windows.Forms.TextBox' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingtextJTextComponentsetText_javalangString"
+                        Severity = "2"
+                    >Method 'javax.swing.text.JTextComponent.setText' was converted to 'System.Windows.Forms.TextBoxBase.Text' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent_javalangObject"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1270"
+                        Severity = "2"
+                    >Constructor may need to be changed depending on function performed by the 'System.Windows.Forms.FileDialog' object.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaxswingJFileChoosersetFileFilter_javaxswingfilechooserFileFilter"
+                        Severity = "1"
+                    >Method 'javax.swing.JFileChooser.setFileFilter' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetLocation_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetVisible_boolean"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setVisible' was converted to 'System.Windows.Forms.Control.Visible' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1135"
+                        Severity = "2"
+                    >'System.Windows.Forms.Application.Run' must be called to start a main form.</Issue>
+                </Section>
+                <Section Name = "actionPerformed(java.awt.event.ActionEvent)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'javax.swing.JFileChooser.showOpenDialog' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1132"
+                        Severity = "2"
+                    >Class 'java.net.URL' was converted to a 'System.Uri' which does not throw an exception if a URL specifies an unknown protocol.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaxswingJTextAreasetColumns_int"
+                        Severity = "1"
+                    >Method 'javax.swing.JTextArea.setColumns' was not converted.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaxswingJTextAreasetColumns_int"
+                        Severity = "1"
+                    >Method 'javax.swing.JTextArea.setColumns' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent_javalangObject"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent_javalangObject"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaxswingJTextAreasetRows_int"
+                        Severity = "1"
+                    >Method 'javax.swing.JTextArea.setRows' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtContaineradd_javaawtComponent_javalangObject"
+                        Severity = "2"
+                    >Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaxswingJFramegetContentPane"
+                        Severity = "2"
+                    >Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaawtWindowpack"
+                        Severity = "1"
+                    >Method 'java.awt.Window.pack' was not converted.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "J2SEDebugCanvas" >
+                <Section Name = "drawMatrix(boolean[][])" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentsetSize_int_int"
+                        Severity = "2"
+                    >Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawLine(Line,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawLines([],int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawPolygon(java.awt.Point[],int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawPoints(java.awt.Point[],int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawPoint(java.awt.Point,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtColorColor_int"
+                        Severity = "2"
+                    >Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtComponentrepaint"
+                        Severity = "2"
+                    >Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "drawCross(java.awt.Point,int)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetX"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaawtPointgetY"
+                        Severity = "2"
+                    >Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "Compile"
+                        Number = "1186"
+                        Severity = "2"
+                    >Class hierarchy differences between 'javax.swing.JFileChooser' and 'System.Windows.Forms.FileDialog' may cause compilation errors.</Issue>
+                    <Issue
+                        Type = "Compile"
+                        Number = "1000"
+                        LinkKeywordParam = "_javaxswingfilechooserFileFilter"
+                        Severity = "1"
+                    >Class 'javax.swing.filechooser.FileFilter' was not converted.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The package 'javax.imageio' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The package 'jp.sourceforge.qrcode.codec' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The package 'jp.sourceforge.qrcode.codec.util' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.geom.Line' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.geom.Point' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Source\qrcode\qrcode\qrcode\example\QRCodeDecoderMIDletExample.java"
+            NewPath = "C:\Source\QRCodeSample\sample\QRCodeDecoderMIDletExample.cs"
+        >
+            <Class Name = "CameraCanvas" >
+                <Section Name = "CameraCanvas(QRCodeDecoderMIDletExample)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+                <Section Name = "start()" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</Issue>
+                </Section>
+            </Class>
+            <Class Name = "J2MEImage" >
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Canvas' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Command' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.CommandListener' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Display' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Displayable' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Font' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Graphics' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.Image' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.TextBox' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.lcdui.TextField' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.media.Manager' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.media.MediaException' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.media.Player' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.media.control.VideoControl' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'javax.microedition.midlet.MIDlet' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.QRCodeDecoder' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.geom.Line' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.geom.Point' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1262"
+                        Severity = "2"
+                    >The type 'jp.sourceforge.qrcode.codec.util.DebugCanvas' could not be found. If it was not included in the conversion, there may be compiler issues.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <Issue
+            Type = "Global Warning"
+            Number = "1274"
+            Severity = "2"
+        >Interaction between members of a class may differ because their execution sequence is different. </Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1264"
+            Severity = "2"
+        >Events behave differently in the .NET Framework.</Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1133"
+            Severity = "2"
+        >The equivalent of java.lang.Object.equals in Visual C# can return a different value if the two comparison methods differ.</Issue>
+    </Root>
+</ConversionLog>
+

@@ -1,0 +1,283 @@
+﻿<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="_ConversionReport_Files\ConversionReport.css">
+		<title>example Conversion Report</title>
+		
+		<script language="javascript">
+		   var oMe;    
+			function outliner () {
+				oMe = window.event.srcElement
+				//get child element
+				var child = document.all[event.srcElement.getAttribute("child",false)];
+				//if child element exists, expand or collapse it.
+				if (null != child)
+					child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+			}
+		
+			function changepic() {
+		       if (oMe.tagName!="IMG") { 
+		           oMe =oMe.children[0];
+		           }
+				var check = oMe.src.toLowerCase();
+				if (check.lastIndexOf("conversionreport_plus.gif") != -1)		{
+					oMe.src = "_ConversionReport_Files/ConversionReport_Minus.gif"		}
+				else
+				{
+					oMe.src = "_ConversionReport_Files/ConversionReport_Plus.gif"
+				}
+			}
+		</script>
+		
+	</head>
+	<body topmargin="0" leftmargin="0" rightmargin="0" onclick="outliner();">
+		<h1>Conversion Report for example</h1>
+		
+		<p><span class="note">
+		<b>Time of Conversion:  </b>5/18/2007 11:13 PM<br>
+		<b>Total Time Spent:  </b>00:00:27<br>
+		</span></p>
+		
+		<h2>List of Project Files</h2>
+		<table cellpadding="2" cellspacing="0" width="98%" border="1" bordercolor="white" class="infotable">
+			<tr>
+				<td nowrap class="header">New Filename</td>
+				<td nowrap class="header">Original Filename</td>
+				<td nowrap class="header">Status</td>
+				<td nowrap class="header">Errors</td>
+				<td nowrap class="header">Warnings</td>
+				<td nowrap class="header">Total Issues</td>
+			</tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="Globals"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="Globals"></a>&nbsp;(Global Issues)</td>
+			<td class="content"></td>
+			<td class="content"></td>
+			<td class="content">0</td>
+			<td class="content">3</td>
+			<td class="content">3</td>
+		</tr>
+			<tr class="collapsed" id="Globals" bgcolor="#ffffff"><td colspan="7">
+			<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Global conversion issues:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1133'>The equivalent of java.lang.Object.equals in Visual C# can return a different value if the two comparison methods differ.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1264'>Events behave differently in the .NET Framework.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">Global Warning</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1274'>Interaction between members of a class may differ because their execution sequence is different. </a></td></tr>
+				</table></td></tr>
+			</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue0"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue0"></a>&nbsp;QRCodeDecoderCUIExample.cs</td>
+			<td class="content">QRCodeDecoderCUIExample.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">6</td>
+			<td class="content">0</td>
+			<td class="content">6</td>
+		</tr>
+			<tr class="collapsed" id="issue0" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for QRCodeDecoderCUIExample.main(java.lang.String[]):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEImage.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.QRCodeDecoder' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.exception.InvalidVersionInfoException' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.imageio.ImageIO' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue1"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue1"></a>&nbsp;QRCodeDecoderGUIExample.cs</td>
+			<td class="content">QRCodeDecoderGUIExample.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">60</td>
+			<td class="content">0</td>
+			<td class="content">60</td>
+		</tr>
+			<tr class="collapsed" id="issue1" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for QRCodeDecoderGUIExample.J2SEImage.QRCodeDecoderGUIExample():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJTextFieldJTextField_int'>Constructor 'javax.swing.JTextField.JTextField' was converted to 'System.Windows.Forms.TextBox' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingtextJTextComponentsetText_javalangString'>Method 'javax.swing.text.JTextComponent.setText' was converted to 'System.Windows.Forms.TextBoxBase.Text' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent_javalangObject'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetLocation_int_int'>Method 'java.awt.Component.setLocation' was converted to 'System.Windows.Forms.Control.Location' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetVisible_boolean'>Method 'java.awt.Component.setVisible' was converted to 'System.Windows.Forms.Control.Visible' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1135'>'System.Windows.Forms.Application.Run' must be called to start a main form.</a></td></tr>
+						<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1270'>Constructor may need to be changed depending on function performed by the 'System.Windows.Forms.FileDialog' object.</a></td></tr>
+						<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaxswingJFileChoosersetFileFilter_javaxswingfilechooserFileFilter'>Method 'javax.swing.JFileChooser.setFileFilter' was not converted.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for QRCodeDecoderGUIExample.J2SEImage.actionPerformed(java.awt.event.ActionEvent):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'javax.swing.JFileChooser.showOpenDialog' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent_javalangObject'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent_javalangObject'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtContaineradd_javaawtComponent_javalangObject'>Method 'java.awt.Container.add' was converted to 'System.Windows.Forms.ContainerControl.Controls.Add' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaxswingJFramegetContentPane'>Method 'javax.swing.JFrame.getContentPane' was converted to 'System.Windows.Forms.Form' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1132'>Class 'java.net.URL' was converted to a 'System.Uri' which does not throw an exception if a URL specifies an unknown protocol.</a></td></tr>
+						<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaxswingJTextAreasetColumns_int'>Method 'javax.swing.JTextArea.setColumns' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaxswingJTextAreasetColumns_int'>Method 'javax.swing.JTextArea.setColumns' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaxswingJTextAreasetRows_int'>Method 'javax.swing.JTextArea.setRows' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaawtWindowpack'>Method 'java.awt.Window.pack' was not converted.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawMatrix(boolean[][]):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentsetSize_int_int'>Method 'java.awt.Component.setSize' was converted to 'System.Windows.Forms.Control.Size' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawLine(Line,int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawLines([],int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawPolygon(java.awt.Point[],int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawPoints(java.awt.Point[],int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawPoint(java.awt.Point,int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtColorColor_int'>Constructor 'java.awt.Color.Color' was converted to 'System.Drawing.Color.FromArgb' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtComponentrepaint'>Method 'java.awt.Component.repaint' was converted to 'System.Windows.Forms.Control.Refresh' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.drawCross(java.awt.Point,int):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetX'>Method 'java.awt.Point.getX' was converted to 'System.Drawing.Point.X' which has a different behavior.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1073_javaawtPointgetY'>Method 'java.awt.Point.getY' was converted to 'System.Drawing.Point.Y' which has a different behavior.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for J2SEDebugCanvas.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The package 'javax.imageio' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The package 'jp.sourceforge.qrcode.codec' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The package 'jp.sourceforge.qrcode.codec.util' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.geom.Line' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.geom.Point' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">1</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1000_javaxswingfilechooserFileFilter'>Class 'javax.swing.filechooser.FileFilter' was not converted.</a></td></tr>
+						<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" width="15%">Compile Error</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1186'>Class hierarchy differences between 'javax.swing.JFileChooser' and 'System.Windows.Forms.FileDialog' may cause compilation errors.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><a href="javascript:changepic();" child="issue2"><IMG border=0 alt="expand/collapse section" class="expandable" height="11" src="_ConversionReport_Files/ConversionReport_Plus.gif" width="9" child="issue2"></a>&nbsp;QRCodeDecoderMIDletExample.cs</td>
+			<td class="content">QRCodeDecoderMIDletExample.java</td>
+			<td class="content">
+		Converted with issues</td>	<td class="content">24</td>
+			<td class="content">0</td>
+			<td class="content">24</td>
+		</tr>
+			<tr class="collapsed" id="issue2" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for CameraCanvas.CameraCanvas(QRCodeDecoderMIDletExample):</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</a></td></tr>
+				</table></td></tr>
+				<tr><td colspan="4" class="content">Conversion Issues for CameraCanvas.start():</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1043'>The equivalent in .NET for method 'java.lang.Throwable.getMessage' may return a different value.</a></td></tr>
+				</table></td></tr>
+				</table>
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="4" class="content">Conversion Issues for J2MEImage.Declarations:</td></tr>
+				<tr><td class="issuecontent"><table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+					<tr><td class="issuehdr">#</td><td class="issuehdr">Type</td><td class="issuehdr">Severity</td><td class="issuehdr">Description</td></tr>
+						<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Canvas' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Command' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.CommandListener' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Display' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Displayable' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Font' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Graphics' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.Image' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.TextBox' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.lcdui.TextField' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.media.Manager' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.media.MediaException' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.media.Player' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.media.control.VideoControl' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'javax.microedition.midlet.MIDlet' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.QRCodeDecoder' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.data.QRCodeImage' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.exception.DecodingFailedException' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.geom.Line' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">20</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.geom.Point' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+						<tr><td width="10" class="issuecontent">21</td><td class="issuecontent" width="15%">To Do</td><td class="issuecontent" width="5%">2</td><td class="issuecontent"><a href=ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1262'>The type 'jp.sourceforge.qrcode.codec.util.DebugCanvas' could not be found. If it was not included in the conversion, there may be compiler issues.</a></td></tr>
+				</table></td></tr>
+				</table>
+			</td></tr>
+		<tr valign="top">
+			<td class="foot">3 File(s)</td>
+			<td class="foot">&nbsp;</td>
+			<td class="foot"></td>
+			<td class="foot">90</td>
+			<td class="foot">3</td>
+			<td class="foot">93</td>
+		</tr>
+		</table>
+		<p class="help">
+		</p>
+				<H3>Conversion Settings</H3>
+					<p><SPAN class="note">
+					<b>LogFile: </b> example.xml<br>
+					<b>OutputDir: </b> C:\Source\QRCodeSample\sample<br>
+					<b>ProjectName: </b> example<br>
+					<b>ProjectPath: </b> C:\Source\qrcode\qrcode\qrcode\example<br>
+					<b>StartTime: </b> Friday,&nbsp;May&nbsp;18,&nbsp;2007&nbsp;23:13:03
+					</span>
+				</p>
+	</body>
+</html>
